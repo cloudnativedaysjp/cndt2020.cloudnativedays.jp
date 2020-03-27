@@ -1,1 +1,1 @@
-# cndt2020
+# cndt2020.cloudnativedays.jp
