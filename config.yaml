@@ -17,6 +17,8 @@ params:
   GoogleMapsKey: "my-secret-maps-key"
   Sections:
     - about
+    - contact
   Titles:
     about: "About"
+    contact: "Contact"
   customCSS: ["css/custom.css"]
