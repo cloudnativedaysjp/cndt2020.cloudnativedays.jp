@@ -8,7 +8,7 @@ publishDir: "docs"
 params:
   Name: "CloudNative Days Tokyo 2020"
   Description: "Conference description"
-  Date: "SEPT 8-/9, 2020"
+  Date: "SEPT 8-9, 2020"
   #Price: "Only $100" # If your event is free, just comment this line
   Venue: " 雅叙園"
   Address: "東京都目黒区下目黒１丁目８−１"
@@ -19,3 +19,4 @@ params:
     - about
   Titles:
     about: "About"
+  customCSS: ["css/custom.css"]
