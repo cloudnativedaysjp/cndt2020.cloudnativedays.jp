@@ -1,0 +1,24 @@
+baseURL: ""
+languageCode: "ja-JP"
+title: "CloudNative Days Tokyo 2020"
+theme: "hugo-conference"
+
+publishDir: "docs"
+
+params:
+  Name: "CloudNative Days Tokyo 2020"
+  Description: "Conference description"
+  Date: "SEPT 8-9, 2020"
+  #Price: "Only $100" # If your event is free, just comment this line
+  Venue: " 雅叙園"
+  Address: "東京都目黒区下目黒１丁目８−１"
+  City:  ""
+  Images: ["/img/badge.jpg"]
+  GoogleMapsKey: "my-secret-maps-key"
+  Sections:
+    - about
+    - contact
+  Titles:
+    about: "About"
+    contact: "Contact"
+  customCSS: ["css/custom.css"]
