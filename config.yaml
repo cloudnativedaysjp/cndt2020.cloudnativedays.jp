@@ -22,3 +22,6 @@ params:
     about: "About"
     contact: "Contact"
   customCSS: ["css/custom.css"]
+  CallToAction:
+    text: "Call for Proposals"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSd_n9AbGr3wTLNN-M8C_YmMpfK8xCON8baq4_FVI7ysciLlnA/viewform"
