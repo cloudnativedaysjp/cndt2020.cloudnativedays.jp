@@ -1,0 +1,51 @@
+baseURL = ""
+languageCode = "ja-JP"
+defaultContentLanguage = "ja"
+title = "CloudNative Days Tokyo 2020"
+theme = "devfest-theme-hugo"
+publishDir = "docs"
+
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+googleAnalytics = "UA-XXXXXXXX-X"
+
+[params]
+    title = "CloudNative Days Tokyo 2020"
+    date = "2020/09/08-09"
+    description = ""
+    images = ["/images/social-share.jpg"]
+    email = ""
+    keywords = ""
+    copyright = "© CloudNative Days Tokyo 2020 (Secretariat by Impress Corporation)"
+    cfpUrl = "https://docs.google.com/forms/d/e/1FAIpQLSd_n9AbGr3wTLNN-M8C_YmMpfK8xCON8baq4_FVI7ysciLlnA/viewform"
+    subscriptionUrl = ""
+    appleTouchIcon = "/apple-touch-icon.png"
+    favicon32 = "/ico/favicon.ico"
+    favicon16 = "/ico/favicon.ico"
+    manifest = "/manifest.json"
+    safariPinnedTab = "/safari-pinned-tab.svg"
+    themeColor = "#673ab7"
+    googleWebmasterKey = "googleXXXXXXX" # https://support.google.com/webmasters/answer/9008080#html_verification
+
+[params.logos]
+    jumbo = "/img/cndt2019.png"
+    header = "/ico/favicon.ico"
+    footer = "/ico/favicon.ico"
+
+[menu]
+[[menu.main]]
+    identifier = "Blog"
+    name = "Blog"
+    url = "https://medium.com/@cloudnativedays"
+    weight = 200
+    external = true
+
+[languages]
+[languages.ja]
+    weight = 1
+    languageName = "ja"
+
+[taxonomies]
+  tag = "tags"

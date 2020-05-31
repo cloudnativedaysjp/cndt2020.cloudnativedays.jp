@@ -1,0 +1,25 @@
+share:
+  - name: facebook
+    url: https://www.facebook.com/sharer.php?u=
+  - name: twitter
+    url: https://twitter.com/intent/tweet?text=
+
+follow:
+  - name: twitter
+    url: https://twitter.com/cloudnativedays
+  - name: GitHub
+    url: https://github.com/cloudnativedaysjp
+  - name: Youtube
+    url: https://www.youtube.com/channel/UCMBw1Z3fmhe-2l-iq2p4rNw
+
+content:
+  - title: footer_about
+    links:
+      - name: CloudNative Days
+        url: https://cloudnativedays.jp/
+        newTab: true
+  - title: footer_previous_edition
+    links:
+      - name: CloudNative Days Tokyo 2020
+        url: https://cloudnativedays.jp/cndt2019/
+        newTab: true
