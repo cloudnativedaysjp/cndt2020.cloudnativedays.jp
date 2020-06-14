@@ -16,12 +16,6 @@ menu:
 ## SEPT 8-9, 2020
 ### Online
 
-<a class="btn primary btn-lg" style="margin-top: 1em;" href="" target="_blank">Become a sponsor</a>
-
-<a class="btn primary btn-lg" href="https://conference-hall.io/public/event/HJRThubF4uYPkb7jSUxi">
-    <svg class="icon icon-cfp"><use xlink:href="#cfp"></use></svg>Submit a presentation
-</a>
-
 {{% /jumbo %}}
 
 {{% section %}}
