@@ -1,6 +1,5 @@
 ---
 title: Home
-icon: home
 
 menu:
   main:
@@ -9,7 +8,10 @@ menu:
 ---
 
 
+
 {{% jumbo img="/images/backgrounds/back-0.jpg" imgLabel="DevFest Toulouse 2019" %}}
+
+# CloudNative Days Tokyo 2020
 
 ## SEPT 8-9, 2020
 ### Online
@@ -22,9 +24,8 @@ menu:
 
 {{% /jumbo %}}
 
-{{% home-info what="Participants:1000,Day:1,Sessions:36,Parallel Tracks:4" class="primary" %}}
-
-## Abount
+{{% section %}}
+## About
 
 CloudNative Days はコミュニティ、企業、技術者が一堂に会し、クラウドネイティブムーブメントを牽引することを目的としたテックカンファレンスです。
 
@@ -33,7 +34,7 @@ CloudNative Days はコミュニティ、企業、技術者が一堂に会し、
 皆様がクラウドネイティブ技術を適切に選択し、活用し、次のステップに進む手助けになることを願っています。
 
 クラウドネイティブで、未来を共に創造しましょう。
-{{% /home-info %}}
+{{% /section %}}
 
 {{% section %}}
 ## Contact
@@ -42,9 +43,4 @@ You can contact us on the following social media [@cloudnativedays](https://twit
 
 Sponsor contact, cndj-spo@impress.co.jp
 {{% /section %}}
-
-
-{{< youtube-section link="FrUdf3CRcpw" title="CloudNative Days Tokyo オンライン上映会 #2" class="" >}}
-
-{{< youtube-section link="SN8_LwwSPZo" title="CloudNative Days Tokyo オンライン上映会 #1" class="" >}}
 
