@@ -1,0 +1,75 @@
+baseURL = ""
+languageCode = "ja-JP"
+defaultContentLanguage = "en"
+title = "CloudNative Days Tokyo 2020"
+theme = "devfest-theme-hugo"
+publishDir = "docs"
+
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+googleAnalytics = "UA-XXXXXXXX-X"
+
+[params]
+    title = "CloudNative Days Tokyo 2020"
+    date = "2020/09/08-09"
+    description = ""
+    images = ["/images/social-share.jpg"]
+    email = ""
+    keywords = ""
+    copyright = "© CloudNative Days Tokyo 2020 (Secretariat by Impress Corporation)"
+    cfpUrl = "https://docs.google.com/forms/d/e/1FAIpQLSd_n9AbGr3wTLNN-M8C_YmMpfK8xCON8baq4_FVI7ysciLlnA/viewform"
+    subscriptionUrl = ""
+    appleTouchIcon = "/apple-touch-icon.png"
+    favicon32 = "/ico/favicon.ico"
+    favicon16 = "/ico/favicon.ico"
+    manifest = "/manifest.json"
+    safariPinnedTab = "/safari-pinned-tab.svg"
+    themeColor = "#673ab7"
+    googleWebmasterKey = "googleXXXXXXX" # https://support.google.com/webmasters/answer/9008080#html_verification
+
+[params.logos]
+    jumbo = ""
+    header = "/ico/favicon.ico"
+    footer = "/ico/favicon.ico"
+
+[menu]
+[[menu.main]]
+    identifier = "Blog"
+    name = "Blog"
+    url = "https://medium.com/@cloudnativedays"
+    weight = 200
+    external = true
+[[menu.main]]
+    identifier = "Twitter"
+    name = "Twitter"
+    url = "https://twitter.com/cloudnativedays"
+    weight = 200
+    external = true
+[[menu.main]]
+    identifier = "GitHub"
+    name = "GitHub"
+    url = "https://github.com/cloudnativedaysjp"
+    weight = 200
+    external = true
+
+[languages]
+[languages.en]
+    weight = 1
+    languageName = "gb"
+
+[taxonomies]
+  tag = "tags"
+
+################
+# Subscription #
+################
+[newsletter]
+other = "Newsletter"
+
+[subscribe_notice]
+other = "No spam, only the latest news and updates!"
+
+[subscribe_action]
+other = "Subscribe"

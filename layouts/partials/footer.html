@@ -1,0 +1,50 @@
+<footer>
+	<div class="bottom-content">
+
+		<hr>
+
+		<div class="footer-content">
+			{{ range .Site.Data.footer.content }}
+			<section>
+				<div class="header">{{ i18n .title }}</div>
+				{{ if .links }}
+				<ul>
+					{{ range .links }}
+					<li>
+						<a href="{{ .url }}" {{ if .newTab }}target="_blank" rel="noopener noreferrer" {{end}}>
+							{{ if .nameKey }}
+							{{ i18n .nameKey }}
+							{{ else }}
+							{{ .name }}
+							{{ end }}
+						</a>
+					</li>
+					{{ end }}
+				</ul>
+				{{ end }}
+			</section>
+			{{ end }}
+			{{ if .Site.Params.subscriptionUrl }}
+			<section class="subscribe">
+				<div class="header">{{ i18n "newsletter" }}</div>
+				<p>{{ i18n "subscribe_notice" }}</p>
+				<a href="{{ .Site.Params.subscriptionUrl }}"
+				   class="btn" rel="noopener noreferrer" target="_blank">
+					{{ partial "icon.html" "subscribe" }}
+					{{- i18n "subscribe_action" -}}
+				</a>
+			</section>
+			{{ end }}
+		</div>
+
+		<hr>
+
+		<div class="footer-footer">
+			{{ if .Site.Params.logos.footer }}
+			<img src="{{ .Site.Params.logos.footer }}" alt="{{ .Site.Title }}">
+			{{ end }}
+			<div>{{ emojify .Site.Params.copyright }}</div>
+		</div>
+
+	</div>
+</footer>

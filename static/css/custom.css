@@ -1,3 +1,10 @@
 .tagline {
     margin-top: 30px;
 }
+
+div.jumbo h1 {
+    font-size: 7em;
+    font-weight: bold;
+}
+
+
