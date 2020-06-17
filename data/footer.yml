@@ -12,14 +12,14 @@
 #  - name: Youtube
 #    url: https://www.youtube.com/channel/UCMBw1Z3fmhe-2l-iq2p4rNw
 
-#content:
-#  - title: footer_about
-#    links:
-#      - name: CloudNative Days
-#        url: https://cloudnativedays.jp/
-#        newTab: true
-#  - title: footer_previous_edition
-#    links:
-#      - name: CloudNative Days Tokyo 2019
-#        url: https://cloudnativedays.jp/cndt2019/
-#        newTab: true
+content:
+  - title: footer_about
+    links:
+      - name: CloudNative Days
+        url: https://cloudnativedays.jp/
+        newTab: true
+  - title: footer_previous_edition
+    links:
+      - name: CloudNative Days Tokyo 2019
+        url: https://cloudnativedays.jp/cndt2019/
+        newTab: true
