@@ -62,6 +62,9 @@ googleAnalytics = "UA-XXXXXXXX-X"
 [taxonomies]
   tag = "tags"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 ################
 # Subscription #
 ################
