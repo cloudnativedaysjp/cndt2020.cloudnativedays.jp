@@ -16,6 +16,7 @@ menu:
 ## SEPT 8-9, 2020
 ### Online
 
+<a class="btn primary btn-lg" style="margin-top: 1em;" href="https://event.cloudnativedays.jp/cndt2020" target="_blank">REGISTER NOW!</a>
 {{% /jumbo %}}
 
 {{% section %}}
